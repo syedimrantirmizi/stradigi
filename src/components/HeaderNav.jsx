@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const HeaderNav = () => {
   return (
-    <nav className="hidden md:flex items-center gap-8">
+    <nav className="hidden md:flex items-center lg:gap-8 md:gap-4 text-[12px] lg:text-sm whitespace-nowrap">
       <Link to="/work" className="text-white hover:text-red-400 transition-colors duration-200">
         Work
       </Link>

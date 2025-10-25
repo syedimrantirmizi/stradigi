@@ -32,7 +32,7 @@ const Header = () => {
       style={{ backgroundColor: `rgba(0,0,0,${bgAlpha})`, transition: "background-color 180ms linear" }}
     >
       <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8 ">
-        <div className="flex items-center justify-between h-24 px-5">
+        <div className="flex items-center justify-between h-24">
           {/* Logo */}
           <HeaderLogo />
 
