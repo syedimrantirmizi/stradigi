@@ -9,15 +9,15 @@ const FoundersSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 max-lg:gap-12 items-center mb-16">
           {/* Founder Image */}
           <div className="relative">
-            <div className="relative w-full max-w-md mx-auto">
-              <div className="aspect-square bg-gradient-to-br from-gray-200 to-gray-300 rounded-lg overflow-hidden relative z-10">
+            <div className="relative w-full max-w-md mx-auto max-sm:p-10">
+              <div className="aspect-square  bg-gradient-to-br from-gray-200  to-gray-300 rounded-lg overflow-hidden relative z-10 ">
                 {/* Image is clipped to rounded corners by overflow-hidden */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <img className="w-full h-full object-cover" src="/professional-headshot-founder.jpg" alt="Founder" />
+                <div className="absolute inset-0 flex items-center max-sm:max-w-xl justify-center">
+                  <img className="w-full h-full object-cover " src="/professional-headshot-founder.jpg" alt="Founder" />
                 </div>
               </div>
-              <div className="absolute inset-0 rotate-4 z-20 flex items-center justify-center pointer-events-none">
-                <div className="w-full h-full border-2 border-red-600 rounded-lg"></div>
+              <div className="absolute inset-0 rotate-4 max-sm:max-w-xl max-sm:p-10 z-20 flex items-center justify-center pointer-events-none">
+                <div className="w-full h-full border-2  border-red-600 rounded-lg"></div>
               </div>
 
             </div>

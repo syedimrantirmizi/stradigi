@@ -21,7 +21,7 @@ const Hero = () => {
 
         {/* Main Headline */}
         <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 text-shadow">
-          <span className="text-white block whitespace-nowrap">Your Market Is Changing.</span>
+          <span className="text-white block sm:whitespace-nowrap">Your Market Is Changing.</span>
           <span className="text-cyan-400 block">Is Your Agency?</span>
         </h1>
 
