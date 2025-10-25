@@ -130,12 +130,12 @@ const MarketsSection = () => {
           {firstRow.map((card) => (
             <div
               key={card.id}
-              className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-200 group"
+              className="bg-white rounded-lg  overflow-hidden hover:shadow-xl transition-shadow duration-200 group"
             >
               <div className="aspect-[5/7] bg-gradient-to-br from-gray-200 to-gray-300 relative overflow-hidden">
-                <div className="absolute inset-0 bg-white opacity-80"></div>
+                <div className="absolute inset-0 bg-white"></div>
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <img src={card.image} alt={card.title} />
+                  <img src={card.image} alt={card.title} className="rounded" />
                 </div>
               </div>
 
@@ -158,13 +158,13 @@ const MarketsSection = () => {
           {secondRow.map((card) => (
             <div
               key={card.id}
-              className="bg-white xl:max-w-[288px] rounded-lg shadow-lg overflow-hidden  hover:shadow-xl transition-shadow duration-200 group"
+              className="bg-white xl:max-w-[288px] rounded-lg overflow-hidden  hover:shadow-xl transition-shadow duration-200 group"
             >
               {/* Image */}
               <div className="aspect-[5/7] bg-gradient-to-br from-gray-200 to-gray-300 relative overflow-hidden">
-                <div className="absolute inset-0 bg-white opacity-80"></div>
+                <div className="absolute inset-0 bg-white"></div>
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <img src={card.image} alt={card.title} />
+                  <img src={card.image} alt={card.title} className="rounded" />
                 </div>
               </div>
 

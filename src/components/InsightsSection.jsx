@@ -123,7 +123,7 @@ const InsightsSection = () => {
                   className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow duration-200 group"
               >
                 <div className="text-center">
-                  <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-red-200 transition-colors duration-200">
+                  <div className="w-16 h-16 bg-red-100 rounded-lg border-2 border-red-200 group-hover:border-red-300 flex items-center justify-center mx-auto mb-4 group-hover:bg-red-200 transition-colors duration-200">
                     <Icon className="w-8 h-8 text-red-600" />
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-red-600 transition-colors duration-200">
